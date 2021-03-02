@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/leedahw/architecture#readme",
   "dependencies": {
+    "@popperjs/core": "^2.9.0",
     "bootstrap": "^5.0.0-beta2"
   }
 }
