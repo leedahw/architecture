@@ -1,4 +1,31 @@
-.background {
+/*COLOR VARIABLES*/
+$black:#323232;
+$white: #fff;
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.image-container {
+    width:100%;
+    height: auto;
     z-index: -1;
-    position:relative; 
+    position:relative;
+    display:flex;
+    align-content: center;
+}
+
+.website-title {
+    z-index: 0;
+    width: 98%;
+    font-size: 170px;
+    color: $white;
+    white-space: no-wrap;
+    text-shadow: 3px 3px 10px #ccc;
+    overflow:hidden;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+
 }
