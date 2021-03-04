@@ -1,7 +1,8 @@
 /*COLOR VARIABLES*/
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: transparent; }
 
 h2 {
   margin-bottom: 0; }
@@ -22,11 +23,22 @@ a {
   display: flex;
   align-content: center; }
 
+.lightblue {
+  background-color: #d3e9f0; }
+
+.pink {
+  background-color: #f7e4f0; }
+
 .margin-align {
   margin-bottom: .5rem; }
 
 #navbarNav {
   margin-right: 1rem; }
+
+.rm-padding {
+  padding: 0;
+  margin: 0;
+  --bs-gutter-x:0; }
 
 .translucent {
   background: linear-gradient(#fff, rgba(0, 0, 0, 0)); }
