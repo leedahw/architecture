@@ -1,5 +1,6 @@
 /*COLOR VARIABLES*/
 $black:#323232;
+$grey: #706f6f;
 $white: #fff;
 $pink: #f7e4f0;
 $lightblue: #d3e9f0;
@@ -15,8 +16,15 @@ h2 {
     margin-bottom:0;
 }
 
-a {
-    color: $black;
+
+li {
+  a {
+      color: $black;
+  }
+}
+
+.reduce {
+    width: 1400px/ 1000px *100%;
 }
 
 .banner {
@@ -29,8 +37,12 @@ a {
     background-repeat: no-repeat;
 }
 
-.align-centered {
+%display-flex {
     display: flex;
+}
+
+.align-centered {
+    @extend %display-flex;
     align-content: center;
 }
 
@@ -40,6 +52,18 @@ a {
 
 .pink {
     background-color: $pink;
+}
+
+.black {
+    color: $black;
+}
+
+.white {
+    color: $white;
+}
+
+.grey {
+    color: $grey;
 }
 
 .margin-align {
