@@ -6,6 +6,10 @@ $pink: #f7e4f0;
 $lightblue: #d3e9f0;
 $white-gradient: linear-gradient($white, rgba(0,0,0,0));
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin:0;
     padding:0;
@@ -87,7 +91,7 @@ li {
 .website-title {
     z-index: 0;
     width: 100%;
-    font-size: 500px;
+    font-size: 200px;
     color: rgba(255,255,255,0.8);
     white-space: no-wrap;
     //text-shadow: 3px 3px 10px #ccc;
